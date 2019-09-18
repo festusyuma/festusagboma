@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.44" height="45.44" viewBox="0 0 45.44 45.44">
+  <g id="music" transform="translate(-967.77 -778.088)">
+    <g id="noun_Headphones_2205519" transform="translate(979.929 791.243)">
+      <g id="Group_65" data-name="Group 65" transform="translate(0 0)">
+        <path id="Path_532" data-name="Path 532" d="M2.317,17.339a3.889,3.889,0,0,0,3.96,3.96H7.6V13.379H6.277a3.685,3.685,0,0,0-2.376.792,7.937,7.937,0,1,1,15.311,0,3.685,3.685,0,0,0-2.376-.792h-1.32V21.3h1.32a3.889,3.889,0,0,0,3.96-3.96v-.132a10.571,10.571,0,1,0-18.478,0Z" transform="translate(-1.008 -1.5)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Ellipse_151" data-name="Ellipse 151" transform="translate(967.77 778.088)" fill="none" stroke="#fff" stroke-width="4">
+      <ellipse cx="22.72" cy="22.72" rx="22.72" ry="22.72" stroke="none"/>
+      <ellipse cx="22.72" cy="22.72" rx="20.72" ry="20.72" fill="none"/>
+    </g>
+  </g>
+</svg>

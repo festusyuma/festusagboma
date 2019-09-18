@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.44" height="45.44" viewBox="0 0 45.44 45.44">
+  <g id="reading" transform="translate(-967.703 -840.349)">
+    <g id="noun_Reading_308373" transform="translate(979.097 853.083)">
+      <path id="Path_533" data-name="Path 533" d="M39.753,18.053A3.719,3.719,0,0,0,43.3,14.447a3.551,3.551,0,1,0-7.1,0A3.719,3.719,0,0,0,39.753,18.053Z" transform="translate(-28.163 -10.838)" fill="#fff"/>
+      <path id="Path_534" data-name="Path 534" d="M12.871,41.812a2.3,2.3,0,0,0-1.834.933l-5.613,7.75a2.274,2.274,0,0,0,1.834,3.6H11.89a2.308,2.308,0,1,0,0-4.617V45.894l4.385,2.177V54.1h.63V48.071l4.4-2.177v3.588a2.308,2.308,0,1,0,0,4.617h4.617a2.271,2.271,0,0,0,1.842-3.6l-5.613-7.75a2.309,2.309,0,0,0-1.842-.933Z" transform="translate(-5 -33.831)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_152" data-name="Ellipse 152" transform="translate(967.703 840.349)" fill="none" stroke="#fff" stroke-width="4">
+      <ellipse cx="22.72" cy="22.72" rx="22.72" ry="22.72" stroke="none"/>
+      <ellipse cx="22.72" cy="22.72" rx="20.72" ry="20.72" fill="none"/>
+    </g>
+  </g>
+</svg>

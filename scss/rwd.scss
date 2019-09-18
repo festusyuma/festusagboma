@@ -1,0 +1,514 @@
+
+//RWD
+
+@media screen and (max-width: 1025px) {
+
+
+  nav {
+    padding: 0 50px 0 20px;
+  }
+
+
+  .hero-text {
+    padding: 120px 50px !important;
+    width: 100%;
+    background: url("../img/ifeoluwa.png");
+    -webkit-background-size: cover;
+    background-size: 334px;
+    background-repeat: no-repeat;
+    background-position:  620px 160px;
+  }
+
+  .work-flex div {
+    height: auto !important;
+    margin: 0 10px;
+  }
+
+  .hero {
+    height: 700px;
+    .hero-img {
+      display: none;
+    }
+    h1 {
+      font-size: 90px;
+      max-width: 5ch;
+    }
+  }
+  .menu-area a {
+    padding: 30px 15px;
+    font-size: 13px;
+  }
+  .services {
+    margin-bottom: 50px;
+    .services-flex div {
+      padding: 15px
+    }
+    p {
+      font-size: 15px;
+      padding: 20px 13px 0 0;
+    }
+    h1 {
+      font-weight: 900;
+      letter-spacing: 5px;
+      border-bottom: 3px solid #000;
+      max-width: 10ch;
+      margin: auto;
+      margin-top: 41px;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+    img {
+      height: 35px;
+    }
+    h2 {
+      font-size: 17px;
+      max-width: 5ch;
+
+    }
+  }
+  .contact {
+    padding: 0.5% 0;
+    h1 {
+      font-size: 44px !important;
+      margin-top: 20px;
+    }
+    textarea {
+      width: 350px;
+      margin-top: 20px;
+    }
+    input {
+      width: 345px;
+    }
+    button {
+
+      background-color: #000000;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      height: 60px;
+      width: 90%;
+      margin: 15px 0;
+      letter-spacing: 2px;
+      font-size: 16px;
+
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+
+  .hero-text {
+    padding: 145px 50px !important;
+    width: 100%;
+    background: url("../img/ifeoluwa.png");
+    -webkit-background-size: cover;
+    background-size: 334px;
+    background-repeat: no-repeat;
+    background-position:  537px 164px;
+  }
+
+  .work-flex div {
+    height: auto !important;
+    margin: 0 10px;
+  }
+
+  .hero {
+    height: 700px;
+    .hero-img {
+      display: none;
+    }
+    h1 {
+      font-size: 65px;
+      //max-width: 5ch;
+    }
+  }
+  .menu-area a {
+    padding: 30px 15px;
+    font-size: 13px;
+  }
+  .services {
+    margin-bottom: 50px;
+      .services-flex div {
+        padding: 15px
+      }
+    p {
+      font-size: 15px;
+      padding: 20px 13px 0 0;
+    }
+    h1 {
+      font-weight: 900;
+      letter-spacing: 5px;
+      border-bottom: 3px solid #000;
+      max-width: 10ch;
+      margin: auto;
+      margin-top: 41px;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+    img {
+      height: 35px;
+    }
+    h2 {
+      font-size: 17px;
+      max-width: 5ch;
+
+    }
+  }
+  .contact {
+    padding: 0.5% 0;
+    h1 {
+      font-size: 44px !important;
+      margin-top: 20px;
+    }
+    textarea {
+      width: 265px;
+      margin-top: 20px;
+    }
+    button {
+
+      background-color: #000000;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      height: 60px;
+      width: 90%;
+      margin: 15px 0;
+      letter-spacing: 2px;
+      font-size: 16px;
+
+    }
+  }
+}
+@media screen and (max-width: 415px){
+  #flip > div > div {
+    color: #fff;
+    padding: 10px 12px;
+    height: 50px;
+    //margin-bottom: 50px;
+    //display: inline-block;
+  }
+
+  #container {
+    //width: 300px;
+    height: 62px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .hero-img {
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+
+  .hero .hero-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    line-height: 100px;
+  }
+  .menu-area {
+    background-color: #fff;
+    display: none;
+
+    height: 100vh;
+  }
+  .menu-area a {
+    display: block !important;
+    text-align: center;
+    padding: 30px 0;
+    line-height: 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+
+  }
+
+  #toggle:checked + .menu-area {
+    display: block;
+  }
+  nav {
+    padding: 0 20px;
+    //display: none;
+  }
+
+
+  .services {
+    text-align: center;
+    .services-flex {
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    p {
+      border-right: none;
+      border-bottom: 2px solid #000;
+      //padding-bottom: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 20px 0px 25px 0;
+      text-align: justify;
+    }
+  }
+  .contact {
+    margin: 0 20px;
+    .form-flex {
+      text-align: center;
+      flex-wrap: wrap;
+      h1 {
+        font-size: 35px;
+
+      }
+      div {
+        width: auto;
+        margin: 20px 0;
+      }
+    }
+    input {
+      margin: 20px 20px 20px 0;
+      width: 300px;
+    }
+    textarea {
+      width: 300px;
+    }
+    button {
+
+      width: 300px !important;
+      margin: 30px 0;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+  }
+  .hero-text h1 {
+    font-size: 50px !important;
+    max-width: 10ch;
+    line-height: 100%;
+    margin: 10px 0;
+  }
+
+  .works .work-flex {
+    flex-wrap: wrap;
+    padding: 0 !important;
+    justify-content: center;
+
+    div {
+      height: 330px;
+      width: 335px;
+      margin: 10px 0;
+    }
+  }
+  .hero {
+    .links {
+
+      a {
+        display:block;
+        width: 374px;
+        //height: 70px;
+        //line-height: 35px;
+        margin-top: 20px;
+
+      }
+
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+
+
+      div {
+        margin: 10px 0;
+      }
+    }
+
+    background-color: transparent;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px !important;
+    }
+    .hero-text {
+      padding: 110px 25px !important;
+      p {
+        margin: 30px 0 30px 0;
+        //font-weight: 600;
+        //letter-spacing: 5px;
+      }
+      background: url("../img/ifeoluwa.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:  170px 100px;
+    }
+
+    .hero-text .one {
+      background-color: #000;
+      color: #fff;
+      font-weight: 700;
+      margin-right: 0;
+      font-size: 20px;
+    }
+  }
+
+}
+@media screen and (max-width: 376px){
+  .hero-img {
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+
+  .hero .hero-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    line-height: 100px;
+  }
+.menu-area {
+  background-color: #fff;
+  display: none;
+
+  height: 100vh;
+}
+    .menu-area a {
+      display: block !important;
+      text-align: center;
+      padding: 30px 0;
+      line-height: 20px;
+      margin: 0 auto;
+      border-bottom: 1px solid black;
+
+  }
+
+  #toggle:checked + .menu-area {
+    display: block;
+  }
+  nav {
+    padding: 0 15px;
+    //display: none;
+  }
+
+
+  .services {
+    text-align: center;
+    .services-flex {
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    p {
+      border-right: none;
+      border-bottom: 2px solid #000;
+      //padding-bottom: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 20px 0px 25px 0;
+      text-align: justify;
+    }
+  }
+  .contact {
+    margin: 0 20px;
+    .form-flex {
+      text-align: center;
+      flex-wrap: wrap;
+      h1 {
+        font-size: 35px;
+
+      }
+      div {
+        width: auto;
+        margin: 20px 0;
+      }
+    }
+    input {
+      margin: 20px 20px 20px 15px;
+      width: 305px;
+    }
+    textarea {
+      width: 313px !important;
+    }
+    button {
+
+      width: 315px !important;
+      margin: 30px 0;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+  }
+.hero-text h1 {
+  font-size: 50px !important;
+  max-width: 10ch;
+  line-height: 100%;
+  margin: 10px 0;
+}
+
+  .works .work-flex {
+    flex-wrap: wrap;
+    padding: 0 !important;
+    justify-content: center;
+
+    div {
+      height: 330px;
+      width: 335px;
+      margin: 10px 0;
+    }
+  }
+  .hero {
+    .links {
+
+       a {
+         display:block;
+         width: 335px;
+         //height: 70px;
+         //line-height: 35px;
+         margin-top: 20px;
+
+       }
+
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+
+
+      div {
+        margin: 10px 0;
+      }
+          }
+
+    background-color: transparent;
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .hero-text {
+      padding: 110px 20px;
+      p {
+        margin: 30px 0 30px 0;
+        //font-weight: 600;
+        //letter-spacing: 5px;
+      }
+      background: url("../img/ifeoluwa.png");
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:  170px 100px;
+    }
+
+    .hero-text .one {
+      background-color: #000;
+      color: #fff;
+      font-weight: 700;
+      margin-right: 0;
+      font-size: 20px;
+    }
+  }
+
+}
