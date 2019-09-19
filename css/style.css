@@ -193,8 +193,7 @@ nav {
     margin: 3% 0; }
   .works .work-flex div {
     height: 400px;
-    width: 380px;
-    background-color: #F1F1F1; }
+    width: 380px; }
 
 .work-flex div {
   overflow: hidden; }

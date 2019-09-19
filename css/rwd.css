@@ -1,3 +1,23 @@
+@media screen and (max-width: 1685px) {
+  .contact .form-flex h1 {
+    font-weight: 900;
+    max-width: 13ch;
+    font-size: 60px; } }
+@media screen and (max-width: 1285px) {
+  .work-flex div {
+    height: auto !important;
+    margin: 0 10px; }
+
+  .contact .form-flex h1 {
+    font-weight: 900;
+    max-width: 13ch;
+    font-size: 50px; }
+
+  .services p {
+    font-size: 16px; }
+
+  .services h2 {
+    font-size: 21px; } }
 @media screen and (max-width: 1025px) {
   nav {
     padding: 0 50px 0 20px; }
