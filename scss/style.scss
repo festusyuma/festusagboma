@@ -16,7 +16,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 0 20px;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  // font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 }
@@ -100,6 +100,10 @@ label {
   line-height: 100px;
   font-weight: 800;
   font-family: 'Nagitta', sans-serif;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 nav {
