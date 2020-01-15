@@ -117,8 +117,40 @@ nav {
   height: 100px;
   background: #fff;
 
-
 }
+
+
+.fuse {
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    //display: block;
+    padding: 30px 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    //line-height: 100px;
+    position: relative;
+    z-index: 1;
+    line-height: 100px;
+  }
+
+
+
+  a:hover {
+    border-bottom: 3px solid #000;
+    transition: all 0.2s ease-in;
+    border-radius: 2px;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+
+  }
+}
+
 
 .menu-area {
   //text-align: right;
@@ -136,9 +168,10 @@ nav {
     position: relative;
     z-index: 1;
     line-height: 100px;
-
-
   }
+
+
+
   a:hover {
     border-bottom: 3px solid #000;
     transition: all 0.2s ease-in;

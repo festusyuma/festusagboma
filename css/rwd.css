@@ -160,6 +160,14 @@
     padding: 10px 12px;
     height: 50px; }
 
+  .fuse a {
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    line-height: 40px !important;
+    padding: 7px 25px; }
+
   #container {
     height: 62px;
     margin-left: 10px;
@@ -285,6 +293,13 @@
 
   body {
     padding: 0; }
+
+  .fuse {
+    margin-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    line-height: 10px !important; }
 
   .hero .hero-flex {
     display: flex;
