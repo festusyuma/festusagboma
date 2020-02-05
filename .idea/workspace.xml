@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b70d4c5-09a4-415a-adb6-304ba85d6335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/stars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about-rwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about-rwd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/rwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rwd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/stars.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +92,7 @@
       <workItem from="1580892728042" duration="1620000" />
       <workItem from="1580894834490" duration="8172000" />
       <workItem from="1580904444144" duration="421000" />
-      <workItem from="1580912040523" duration="3003000" />
+      <workItem from="1580912040523" duration="3446000" />
     </task>
     <servers />
   </component>

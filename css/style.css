@@ -141,7 +141,7 @@ nav {
   width: 100%;
   padding: 0 50px;
   z-index: 1;
-  height: 10vh;
+  max-height: 10vh;
   background: #000000;
 }
 /* line 124, ../scss/style.scss */
@@ -149,14 +149,19 @@ nav .nav-right {
   margin-left: auto;
 }
 /* line 128, ../scss/style.scss */
+nav .nav-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 133, ../scss/style.scss */
 nav .nav-items {
   display: flex;
 }
-/* line 131, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 nav .nav-items li {
   display: flex;
 }
-/* line 133, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 nav .nav-items li .nav-item {
   color: #c3c3c3;
   font-weight: bold;
@@ -168,34 +173,34 @@ nav .nav-items li .nav-item {
   text-transform: uppercase;
   transition: all 0.2s ease-in;
 }
-/* line 145, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 nav .nav-items li .nav-item:hover {
   color: #ffffff;
   border-bottom-color: #335cff;
 }
-/* line 152, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 nav #nav-icon {
   color: #335cff;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #intro {
   background: transparent;
   color: #ffffff;
 }
-/* line 162, ../scss/style.scss */
+/* line 167, ../scss/style.scss */
 #intro .greeting {
   font-size: 2rem;
 }
-/* line 163, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 #intro .title {
   font-size: 8.5rem;
 }
-/* line 164, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 #intro .fy-flex-center {
   min-height: 80vh;
 }
-/* line 166, ../scss/style.scss */
+/* line 171, ../scss/style.scss */
 #intro .career-txt {
   display: flex;
   align-items: center;
@@ -204,55 +209,55 @@ nav #nav-icon {
   letter-spacing: 5px;
   font-weight: bold;
 }
-/* line 174, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 #intro .career-txt .flip-item {
   text-align: left;
 }
-/* line 175, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 #intro .career-txt #i-am {
   margin-right: 1rem;
 }
-/* line 178, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 #intro #intro-links {
   margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
-/* line 183, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 #intro #intro-links .one {
   background-color: #335cff;
   color: #fff;
   margin-right: 20px;
   outline: 1px solid #335cff;
 }
-/* line 189, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 #intro #intro-links .one:hover {
   background-color: #000000;
   color: #ffffff;
   transition: all 0.2s ease-in;
 }
-/* line 195, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 #intro #intro-links .two {
   color: #ffffff;
   outline: 1px solid #335cff;
 }
-/* line 200, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #intro #intro-links .two:hover {
   color: #fff;
   background: #335cff;
   outline-color: #335cff;
   transition: all 0.2s ease-in;
 }
-/* line 207, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 #intro #intro-links .one-cover {
   margin-left: auto;
 }
-/* line 208, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 #intro #intro-links .two-cover {
   margin-right: auto;
 }
 
-/* line 213, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .works {
   z-index: 2;
   color: #ffffff;
@@ -260,93 +265,93 @@ nav #nav-icon {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-/* line 220, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .works .work-flex {
   display: flex;
   justify-content: space-between;
   padding: 0 10%;
   margin: 3% 0;
 }
-/* line 228, ../scss/style.scss */
+/* line 233, ../scss/style.scss */
 .works .work-flex div {
   overflow: hidden;
   height: 400px;
   width: 380px;
 }
-/* line 234, ../scss/style.scss */
+/* line 239, ../scss/style.scss */
 .works .work-flex img {
   max-width: 100%;
 }
 
-/* line 241, ../scss/style.scss */
+/* line 246, ../scss/style.scss */
 .services {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: #ffffff;
 }
-/* line 246, ../scss/style.scss */
+/* line 251, ../scss/style.scss */
 .services p {
   border-right: 2px solid #000;
   font-weight: 600;
 }
-/* line 251, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .services .services-flex {
   display: flex;
   padding: 0 10%;
 }
-/* line 254, ../scss/style.scss */
+/* line 259, ../scss/style.scss */
 .services .services-flex div {
   padding: 30px;
 }
-/* line 258, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .services img {
   margin: 10px 0;
   height: 50px;
 }
-/* line 262, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .services p {
   font-size: 18px;
   padding: 20px 30px 0 0;
   opacity: 0.8;
 }
-/* line 267, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .services h2 {
   font-size: 24px;
   font-weight: 800;
   letter-spacing: 2px;
 }
 
-/* line 275, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 .contact {
   color: #ffffff;
   background: #0e0e0e !important;
   padding: 5rem 0;
 }
-/* line 280, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 .contact .form-flex {
   margin: 5% 10%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-/* line 286, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 .contact .form-flex h1 {
   font-weight: 900;
   font-size: 70px;
 }
-/* line 292, ../scss/style.scss */
+/* line 297, ../scss/style.scss */
 .contact .fy-button {
   background-color: #335cff;
   color: #ffffff;
 }
 
-/* line 299, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .bottom-nav {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
 }
-/* line 305, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .bottom-nav .fuse li {
   font-weight: bolder;
   letter-spacing: 1px;
@@ -357,48 +362,48 @@ nav #nav-icon {
   opacity: 0.7;
   border-bottom: 3px solid transparent;
 }
-/* line 315, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 .bottom-nav .fuse li a {
   text-decoration: none;
   color: #ffffff;
 }
-/* line 321, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 .bottom-nav .fuse li:hover {
   opacity: 1;
   border-bottom: 3px solid #ffffff;
   transition: all 0.2s ease-in;
   border-radius: 2px;
 }
-/* line 327, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 .bottom-nav .fuse li {
   list-style-type: none;
   display: inline-block;
 }
-/* line 334, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .bottom-nav hr {
   width: 80vw;
   margin: 0 auto;
   border-color: #ababab9e;
 }
 
-/* line 341, ../scss/style.scss */
+/* line 346, ../scss/style.scss */
 footer {
   color: #ffffff;
 }
 
-/* line 347, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 label {
   margin: 0 0 0 0;
   font-size: 30px;
   display: none;
 }
 
-/* line 352, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 #toggle {
   display: none;
 }
 
-/* line 358, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .logo {
   max-width: 300px;
   float: left;
@@ -409,14 +414,14 @@ label {
   font-weight: 800;
   font-family: 'Nagitta', sans-serif;
 }
-/* line 368, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 .logo a {
   text-decoration: none;
   color: #335cff;
 }
 
 @media (min-width: 1200px) {
-  /* line 375, ../scss/style.scss */
+  /* line 380, ../scss/style.scss */
   .container {
     max-width: 1140px;
   }
