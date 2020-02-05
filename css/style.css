@@ -223,7 +223,6 @@ footer {
   padding: 10px 12px;
   height: 50px;
   margin-bottom: 50px;
-  display: inline-block;
 }
 
 #flip div:first-child {
@@ -609,13 +608,18 @@ footer {
   height: 5vh;
   overflow: hidden;
 }
+#flip #flip-items {
+  position: relative;
+}
+#flip #flip-items .flip-item {
+  height: 5vh;
+}
 
 #flip > div > div {
   color: #000000;
   padding: 10px 12px;
   height: 50px;
   margin-bottom: 50px;
-  display: inline-block;
 }
 
 #flip div:first-child {
