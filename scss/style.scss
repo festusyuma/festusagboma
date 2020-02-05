@@ -671,8 +671,10 @@ footer {
 }
 
 #flip {
-  height:50px;
+  height: 5vh;
   overflow:hidden;
+
+
 }
 #flip > div > div {
   color:#000000;
@@ -684,16 +686,6 @@ footer {
 #flip div:first-child {
   animation: show 5s linear infinite;
 }
-#flip div div {
-  background: #ffffff;
-}
-#flip div:first-child div {
-  background: #ffffff;
-}
-#flip div:last-child div {
-  background: #ffffff;
-}
-
 @keyframes show {
   0% {margin-top:-270px;}
   5% {margin-top:-180px;}

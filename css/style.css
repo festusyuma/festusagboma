@@ -606,7 +606,7 @@ footer {
 }
 
 #flip {
-  height: 50px;
+  height: 5vh;
   overflow: hidden;
 }
 
@@ -620,18 +620,6 @@ footer {
 
 #flip div:first-child {
   animation: show 5s linear infinite;
-}
-
-#flip div div {
-  background: #ffffff;
-}
-
-#flip div:first-child div {
-  background: #ffffff;
-}
-
-#flip div:last-child div {
-  background: #ffffff;
 }
 
 @keyframes show {
