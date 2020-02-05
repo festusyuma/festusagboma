@@ -1,16 +1,20 @@
+/* line 3, ../scss/about.scss */
 .hero {
   background-color: white !important;
   height: 80vh !important;
 }
+/* line 6, ../scss/about.scss */
 .hero h1 {
   font-size: 120px !important;
 }
 
+/* line 12, ../scss/about.scss */
 .about-flex {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
+/* line 17, ../scss/about.scss */
 .about-flex .about-img {
   background-image: url("../img/me.jpg");
   -webkit-background-size: cover;
@@ -20,15 +24,18 @@
   z-index: initial;
 }
 
+/* line 27, ../scss/about.scss */
 .about-text {
-  padding: 150px 50px 0 50px;
+  padding: 150px  50px 0 50px;
 }
+/* line 29, ../scss/about.scss */
 .about-text h1 {
   font-weight: 900;
   font-size: 120px;
   max-width: 5ch;
   line-height: 80%;
 }
+/* line 35, ../scss/about.scss */
 .about-text p {
   margin: 30px 0 0 0;
   font-weight: 600;
@@ -39,6 +46,7 @@
   text-align: left;
 }
 
+/* line 45, ../scss/about.scss */
 .hobby {
   position: absolute;
   right: 60%;
@@ -52,17 +60,18 @@
   color: white;
   padding: 25px;
 }
+/* line 59, ../scss/about.scss */
 .hobby p {
   font-size: 19px;
   font-weight: 600;
 }
+/* line 63, ../scss/about.scss */
 .hobby h3 {
   margin: 10px;
   letter-spacing: 2px;
 }
+/* line 71, ../scss/about.scss */
 .hobby img {
   vertical-align: middle;
   margin: 10px;
 }
-
-/*# sourceMappingURL=about.css.map */

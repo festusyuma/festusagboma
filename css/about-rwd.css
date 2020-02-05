@@ -1,53 +1,65 @@
 @media screen and (max-width: 1285px) {
+  /* line 4, ../scss/about-rwd.scss */
   .about-text p {
     max-width: 45ch;
   }
 }
 @media screen and (max-width: 1025px) {
+  /* line 9, ../scss/about-rwd.scss */
   .about-text {
     padding: 150px 37px 0 33px;
   }
 
+  /* line 12, ../scss/about-rwd.scss */
   .about-img {
     height: 700px !important;
     width: 450px !important;
   }
 
+  /* line 16, ../scss/about-rwd.scss */
   .hero h1 {
     font-size: 100px;
   }
 
+  /* line 20, ../scss/about-rwd.scss */
   .hero p {
     font-size: 17px;
   }
 
+  /* line 24, ../scss/about-rwd.scss */
   .hobby {
     width: 350px;
     padding: 20px;
   }
+  /* line 27, ../scss/about-rwd.scss */
   .hobby p {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 769px) {
+  /* line 36, ../scss/about-rwd.scss */
   .menu-area a {
     font-size: 13px;
     padding: 30px 15px;
   }
 
+  /* line 41, ../scss/about-rwd.scss */
   .hobby h3 {
     font-size: 25px;
     padding-top: 10px;
   }
 
+  /* line 46, ../scss/about-rwd.scss */
   body {
     padding: 0 0 40px 0 !important;
   }
 
+  /* line 51, ../scss/about-rwd.scss */
   .list {
     display: flex;
   }
 
+  /* line 54, ../scss/about-rwd.scss */
   .hobby {
     position: initial !important;
     right: 0% !important;
@@ -59,14 +71,17 @@
     margin-bottom: 20px !important;
     margin: auto;
   }
+  /* line 67, ../scss/about-rwd.scss */
   .hobby p {
     font-size: 16px !important;
   }
 
+  /* line 72, ../scss/about-rwd.scss */
   .about-flex {
     flex-wrap: wrap;
     justify-content: center !important;
   }
+  /* line 77, ../scss/about-rwd.scss */
   .about-flex .about-img {
     background-image: url("../img/me.jpg");
     -webkit-background-size: cover;
@@ -75,14 +90,17 @@
     height: 450px !important;
   }
 
+  /* line 86, ../scss/about-rwd.scss */
   .about-text {
     padding: 20px !important;
   }
+  /* line 88, ../scss/about-rwd.scss */
   .about-text h1 {
     font-size: 50px !important;
     text-align: center !important;
     max-width: 100% !important;
   }
+  /* line 93, ../scss/about-rwd.scss */
   .about-text p {
     max-width: 70ch !important;
     font-size: 16px !important;
@@ -90,18 +108,21 @@
   }
 }
 @media screen and (max-width: 415px) {
+  /* line 102, ../scss/about-rwd.scss */
   label {
     display: block;
     cursor: pointer;
     line-height: 100px;
   }
 
+  /* line 107, ../scss/about-rwd.scss */
   .menu-area {
     background-color: #fff;
     display: none;
     height: 100vh;
   }
 
+  /* line 113, ../scss/about-rwd.scss */
   .menu-area a {
     display: block !important;
     text-align: center;
@@ -111,27 +132,33 @@
     border-bottom: 1px solid black;
   }
 
+  /* line 122, ../scss/about-rwd.scss */
   #toggle:checked + .menu-area {
     display: block;
   }
 
+  /* line 125, ../scss/about-rwd.scss */
   nav {
     padding: 0 20px;
   }
 
+  /* line 130, ../scss/about-rwd.scss */
   .list {
     display: block;
   }
 
+  /* line 133, ../scss/about-rwd.scss */
   .hobby h3 {
     font-size: 25px;
     padding-top: 10px;
   }
 
+  /* line 138, ../scss/about-rwd.scss */
   body {
     padding: 0 !important;
   }
 
+  /* line 142, ../scss/about-rwd.scss */
   .hobby {
     position: initial !important;
     right: 0% !important;
@@ -143,14 +170,17 @@
     margin-bottom: 20px !important;
     margin: auto;
   }
+  /* line 155, ../scss/about-rwd.scss */
   .hobby p {
     font-size: 16px !important;
   }
 
+  /* line 160, ../scss/about-rwd.scss */
   .about-flex {
     flex-wrap: wrap;
     justify-content: center !important;
   }
+  /* line 166, ../scss/about-rwd.scss */
   .about-flex .about-img {
     background-image: url("../img/me.jpg");
     -webkit-background-size: cover;
@@ -159,12 +189,15 @@
     width: 374px !important;
   }
 
+  /* line 175, ../scss/about-rwd.scss */
   .about-text {
     padding: 20px !important;
   }
+  /* line 177, ../scss/about-rwd.scss */
   .about-text h1 {
     font-size: 50px !important;
   }
+  /* line 180, ../scss/about-rwd.scss */
   .about-text p {
     max-width: 44ch !important;
     font-size: 16px !important;
@@ -172,18 +205,21 @@
   }
 }
 @media screen and (max-width: 376px) {
+  /* line 190, ../scss/about-rwd.scss */
   label {
     display: block;
     cursor: pointer;
     line-height: 100px;
   }
 
+  /* line 195, ../scss/about-rwd.scss */
   .menu-area {
     background-color: #fff;
     display: none;
     height: 100vh;
   }
 
+  /* line 201, ../scss/about-rwd.scss */
   .menu-area a {
     display: block !important;
     text-align: center;
@@ -193,23 +229,28 @@
     border-bottom: 1px solid black;
   }
 
+  /* line 209, ../scss/about-rwd.scss */
   #toggle:checked + .menu-area {
     display: block;
   }
 
+  /* line 212, ../scss/about-rwd.scss */
   nav {
     padding: 0 20px;
   }
 
+  /* line 218, ../scss/about-rwd.scss */
   .hobby h3 {
     font-size: 25px;
     padding-top: 10px;
   }
 
+  /* line 223, ../scss/about-rwd.scss */
   body {
     padding: 0 !important;
   }
 
+  /* line 227, ../scss/about-rwd.scss */
   .hobby {
     position: initial !important;
     right: 0% !important;
@@ -220,14 +261,17 @@
     margin-top: 20px !important;
     margin: auto;
   }
+  /* line 238, ../scss/about-rwd.scss */
   .hobby p {
     font-size: 16px !important;
   }
 
+  /* line 243, ../scss/about-rwd.scss */
   .about-flex {
     flex-wrap: wrap;
     justify-content: center !important;
   }
+  /* line 248, ../scss/about-rwd.scss */
   .about-flex .about-img {
     background-image: url("../img/me.jpg");
     -webkit-background-size: cover;
@@ -236,12 +280,15 @@
     width: 335px !important;
   }
 
+  /* line 257, ../scss/about-rwd.scss */
   .about-text {
     padding: 20px !important;
   }
+  /* line 259, ../scss/about-rwd.scss */
   .about-text h1 {
     font-size: 50px !important;
   }
+  /* line 262, ../scss/about-rwd.scss */
   .about-text p {
     max-width: 38ch !important;
     font-size: 16px !important;
@@ -249,18 +296,21 @@
   }
 }
 @media screen and (max-width: 360px) {
+  /* line 272, ../scss/about-rwd.scss */
   label {
     display: block;
     cursor: pointer;
     line-height: 100px;
   }
 
+  /* line 277, ../scss/about-rwd.scss */
   .menu-area {
     background-color: #fff;
     display: none;
     height: 100vh;
   }
 
+  /* line 283, ../scss/about-rwd.scss */
   .menu-area a {
     display: block !important;
     text-align: center;
@@ -270,23 +320,28 @@
     border-bottom: 1px solid black;
   }
 
+  /* line 292, ../scss/about-rwd.scss */
   #toggle:checked + .menu-area {
     display: block;
   }
 
+  /* line 295, ../scss/about-rwd.scss */
   nav {
     padding: 0 20px;
   }
 
+  /* line 299, ../scss/about-rwd.scss */
   .hobby h3 {
     font-size: 25px;
     padding-top: 10px;
   }
 
+  /* line 304, ../scss/about-rwd.scss */
   body {
     padding: 0 !important;
   }
 
+  /* line 308, ../scss/about-rwd.scss */
   .hobby {
     position: initial !important;
     right: 0% !important;
@@ -297,14 +352,17 @@
     margin-top: 20px !important;
     margin: auto;
   }
+  /* line 319, ../scss/about-rwd.scss */
   .hobby p {
     font-size: 16px !important;
   }
 
+  /* line 324, ../scss/about-rwd.scss */
   .about-flex {
     flex-wrap: wrap;
     justify-content: center !important;
   }
+  /* line 329, ../scss/about-rwd.scss */
   .about-flex .about-img {
     background-image: url("../img/me.jpg");
     -webkit-background-size: cover;
@@ -313,17 +371,18 @@
     width: 335px !important;
   }
 
+  /* line 338, ../scss/about-rwd.scss */
   .about-text {
     padding: 20px !important;
   }
+  /* line 340, ../scss/about-rwd.scss */
   .about-text h1 {
     font-size: 50px !important;
   }
+  /* line 343, ../scss/about-rwd.scss */
   .about-text p {
     max-width: 51ch !important;
     font-size: 14px !important;
     line-height: 170% !important;
   }
 }
-
-/*# sourceMappingURL=about-rwd.css.map */
