@@ -19,6 +19,20 @@ body {
   background: #000000;
 }
 
+body::-webkit-scrollbar {
+  width: .25rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: none;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #335cff;
+  outline: none;
+}
+
 .pad {
   padding-top: 5px !important;
 }
