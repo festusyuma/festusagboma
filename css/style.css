@@ -108,6 +108,35 @@ body {
     top: 0;
   }
 }
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0 50px;
+  z-index: 1;
+  height: 10vh;
+  background: #000000;
+}
+nav .nav-right {
+  margin-left: auto;
+}
+nav .nav-items .nav-item {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 1rem 0.8rem;
+}
+nav .nav-items .nav-item:hover {
+  border-bottom-color: #335cff;
+}
+nav #nav-icon {
+  color: #335cff;
+}
+
 #intro {
   background: #000000;
   color: #ffffff;
@@ -314,42 +343,13 @@ label {
   color: #335cff;
 }
 
-nav {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0px 50px;
-  z-index: 1;
-  text-align: right;
-  height: 100px;
-  background: #fff;
-}
-nav #nav-icon {
-  color: #335cff;
-}
-
 .menu-area a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 800;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 30px 25px;
   margin-bottom: 10px;
   font-size: 16px;
   position: relative;
   z-index: 1;
   line-height: 100px;
-}
-.menu-area a:hover {
-  border-bottom: 3px solid #000;
-  transition: all 0.2s ease-in;
-  border-radius: 2px;
-}
-.menu-area li {
-  list-style-type: none;
-  display: inline-block;
 }
 
 @media (min-width: 1200px) {
