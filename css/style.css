@@ -42,12 +42,21 @@ body {
   font-size: 2rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .fy-button {
   padding: 1.5rem 2rem;
   letter-spacing: 5px;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+
+.fy-button:hover {
+  cursor: pointer;
 }
 
 .fy-text {
@@ -121,16 +130,25 @@ nav {
 nav .nav-right {
   margin-left: auto;
 }
-nav .nav-items .nav-item {
+nav .nav-items {
+  display: flex;
+}
+nav .nav-items li {
+  display: flex;
+}
+nav .nav-items li .nav-item {
   color: #ffffff;
   font-weight: bold;
   border-bottom: 3px solid transparent;
   transition: all 0.2s ease-in;
   text-decoration: none;
   letter-spacing: 1px;
-  padding: 1rem 0.8rem;
+  margin: auto;
+  padding: 1rem 1.2rem;
+  text-transform: uppercase;
+  color: #c3c3c3;
 }
-nav .nav-items .nav-item:hover {
+nav .nav-items li .nav-item:hover {
   border-bottom-color: #335cff;
 }
 nav #nav-icon {
@@ -265,18 +283,9 @@ nav #nav-icon {
   font-weight: 900;
   font-size: 70px;
 }
-.contact button {
+.contact .fy-button {
   background-color: #335cff;
-  color: white;
-  border: none;
-  padding: 1em 1.5em;
-  letter-spacing: 5px;
-  font-size: 20px;
-  font-weight: bolder;
-}
-.contact button:hover {
-  cursor: pointer;
-  transition: all 0.2s;
+  color: #ffffff;
 }
 
 .bottom-nav {
@@ -343,22 +352,10 @@ label {
   color: #335cff;
 }
 
-.menu-area a {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  font-size: 16px;
-  position: relative;
-  z-index: 1;
-  line-height: 100px;
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
-}
-.text-center {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
