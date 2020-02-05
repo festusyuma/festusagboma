@@ -30,10 +30,10 @@ body {
   font-weight:600;
   width:auto;
   display:block;
-  height: 62px;
   letter-spacing: 2px;
   margin: 20px 0;
 }
+
 
 .section-title {
   display: flex;
@@ -48,32 +48,88 @@ body {
   }
 }
 
+.fy-button {
+  padding: 1.5rem 2rem;
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fy-text {
+  letter-spacing: 1px;
+}
+
+.fy-flex-center{
+  display: flex;
+
+  > * {
+    margin: auto;
+  }
+}
+
+#flip {
+  height: 5vh;
+  overflow:hidden;
+
+  #flip-items {
+    position: relative;
+    animation: show 10s linear infinite;
+
+    .flip-item {
+      height: 5vh;
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+        color: #9c9c9c;
+      }
+    }
+  }
+}
+
+@keyframes show {
+  0% {top: 0;}
+  17.55% {top: 0;}
+  20% {top: -5vh;}
+  37.5% {top: -5vh;}
+  40% {top: -10vh;}
+  57.5% {top: -10vh;}
+  60% {top: -5vh;}
+  77.5% {top: -5vh;}
+  80% {top: 0;}
+}
+
 #intro {
   background: #000000;
   color: #ffffff;
 
-  .hero-flex{
-    justify-content: center;
-    align-content: center;
-  }
+  .greeting {font-size: 2rem}
+  .title{font-size: 8.5rem}
+  .fy-flex-center {min-height: 80vh}
 
   .career-txt {
     display: flex;
-    p {
-      margin-left: auto;
-    }
-    #container {
-      margin-right: auto;
-    }
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+    .flip-item {text-align: left}
+    #i-am {margin-right: 1rem;}
   }
 
   #intro-links {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+
     .one {
       background-color: #335cff;
       color: #fff;
-      font-weight: 700;
       margin-right: 20px;
-      font-size: 20px;
       outline: 1px solid #335cff;
     }
     .one:hover {
@@ -84,9 +140,7 @@ body {
 
     .two {
       color: #ffffff;
-      font-weight: 700;
       outline: 1px solid #335cff;
-      font-size: 20px;
     }
 
     .two:hover {
@@ -242,41 +296,6 @@ footer {
   color: #ffffff;
 }
 
-#flip {
-  height:50px;
-  overflow:hidden;
-}
-#flip > div > div {
-  color:#000000;
-  padding:10px 12px;
-  height:50px;
-  margin-bottom:50px;
-  display:inline-block;
-}
-#flip div:first-child {
-  animation: show 5s linear infinite;
-}
-#flip div div {
-  background: #ffffff;
-}
-#flip div:first-child div {
-  background: #ffffff;
-}
-#flip div:last-child div {
-  background: #ffffff;
-}
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
-
 
 //Navigation is here
 label {
@@ -361,65 +380,6 @@ nav {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-  }
-}
-
-.hero {
-  background-color: rgba(241, 241, 241, 0.9);
-  height: 800px;
-  //margin: 0 20px;
-
-  .links {
-    display: flex;
-  }
-
-  h1 {
-    font-weight: 900;
-    font-size: 130px;
-  }
-  p {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size:35px;
-  }
-  .hero-text {
-    padding: 150px 50px;
-    p {
-      margin: 20px 26px 60px 0;
-      letter-spacing: 5px;
-      font-size:36px;
-      font-weight:bold;
-    }
-
-    a {
-      text-decoration: none;
-      padding: 1em 1.5em;
-      letter-spacing: 10px;
-      width:300px;
-
-    }
-
-  }
-  .hero-img {
-    background: url("../img/ifeoluwa.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0% -100%;
-    margin: 11.5% 0 0 0;
-    height: 400pt;
-    width: 35%;
-  }
-  .hero-img:hover {
-    filter: grayscale(100%);
-    transition: all 0.5s ease-in-out;
-
-  }
-
-  .hero-flex {
-    display: flex;
-    justify-content: space-between;
   }
 }
 
