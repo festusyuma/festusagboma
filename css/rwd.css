@@ -6,7 +6,7 @@
 
   /* line 8, ../scss/rwd.scss */
   #works .works .work {
-    width: 17.5rem;
+    width: 15rem;
   }
 
   /* line 16, ../scss/rwd.scss */
@@ -102,25 +102,98 @@
   }
 }
 @media only screen and (max-width: 725px) {
-  /* line 128, ../scss/rwd.scss */
+  /* line 127, ../scss/rwd.scss */
+  .fy-button {
+    padding: 1.125rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* line 133, ../scss/rwd.scss */
   #intro .greeting {
     font-size: 1.5rem;
   }
-  /* line 129, ../scss/rwd.scss */
+  /* line 134, ../scss/rwd.scss */
   #intro .title {
     font-size: 5.5rem;
   }
-  /* line 130, ../scss/rwd.scss */
+  /* line 135, ../scss/rwd.scss */
   #intro .fy-flex-center {
     min-height: 65vh;
   }
-  /* line 132, ../scss/rwd.scss */
+  /* line 137, ../scss/rwd.scss */
   #intro .career-txt {
     font-size: 1.2rem;
   }
 
-  /* line 139, ../scss/rwd.scss */
+  /* line 144, ../scss/rwd.scss */
   #works .works .work {
     width: 15rem;
+  }
+
+  /* line 151, ../scss/rwd.scss */
+  #contact h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 630px) {
+  /* line 160, ../scss/rwd.scss */
+  #works .works .work {
+    width: 12.5rem;
+  }
+}
+@media only screen and (max-width: 555px) {
+  /* line 172, ../scss/rwd.scss */
+  .fy-button {
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* line 178, ../scss/rwd.scss */
+  #intro .greeting {
+    font-size: 1rem;
+  }
+  /* line 179, ../scss/rwd.scss */
+  #intro .title {
+    font-size: 3.5rem;
+  }
+  /* line 180, ../scss/rwd.scss */
+  #intro .fy-flex-center {
+    min-height: 65vh;
+  }
+  /* line 182, ../scss/rwd.scss */
+  #intro .career-txt {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+  }
+  /* line 187, ../scss/rwd.scss */
+  #intro .career-txt .flip-item {
+    justify-content: center;
+  }
+
+  /* line 195, ../scss/rwd.scss */
+  #works .works .work {
+    width: 80vw;
+  }
+
+  /* line 202, ../scss/rwd.scss */
+  #contact .fy-flex {
+    margin: 2rem 0;
+  }
+  /* line 205, ../scss/rwd.scss */
+  #contact .fy-flex h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 214, ../scss/rwd.scss */
+  #contact .fy-flex {
+    display: block;
+    text-align: center;
+  }
+  /* line 218, ../scss/rwd.scss */
+  #contact .fy-flex h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 }

@@ -6,7 +6,7 @@
 	#works {
 		.works {
 			.work {
-				width: 17.5rem;
+				width: 15rem;
 			}
 		}
 	}
@@ -124,6 +124,11 @@
 }
 
 @media only screen and (max-width: 725px){
+	.fy-button {
+		padding: 1.125rem 1.5rem;
+		font-size: 1rem;
+	}
+
 	#intro {
 		.greeting {font-size: 1.5rem}
 		.title{font-size: 5.5rem}
@@ -141,4 +146,83 @@
 			}
 		}
 	}
+
+	#contact {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 630px) {
+	#works {
+		.works {
+			.work {
+				width: 12.5rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 555px) {
+
+}
+
+@media only screen and (max-width: 555px) {
+	.fy-button {
+		padding: 0.75rem 1rem;
+		font-size: 0.8rem;
+	}
+
+	#intro {
+		.greeting {font-size: 1rem}
+		.title{font-size: 3.5rem}
+		.fy-flex-center {min-height: 65vh}
+
+		.career-txt {
+			font-size: 1rem;
+			display: block;
+			margin-top: 1rem;
+
+			.flip-item {
+				justify-content: center;
+			}
+		}
+	}
+
+	#works {
+		.works {
+			.work {
+				width: 80vw;
+			}
+		}
+	}
+
+	#contact {
+		.fy-flex {
+			margin: 2rem 0;
+
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#contact {
+		.fy-flex {
+			display: block;
+			text-align: center;
+
+			h1 {
+				font-size: 2rem;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
 }

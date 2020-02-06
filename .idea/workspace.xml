@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b70d4c5-09a4-415a-adb6-304ba85d6335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/about-rwd.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/about.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/rwd.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/stars.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/9cb593d0a8e978d8b8c3f07aba70d67e03c435f5/rwd.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/9cb593d0a8e978d8b8c3f07aba70d67e03c435f5/rwd.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/rwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rwd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/rwd.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rwd.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,6 +103,7 @@
       <workItem from="1580894834490" duration="8172000" />
       <workItem from="1580904444144" duration="421000" />
       <workItem from="1580912040523" duration="21658000" />
+      <workItem from="1581026962639" duration="1890000" />
     </task>
     <servers />
   </component>
