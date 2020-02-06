@@ -76,6 +76,12 @@ body {
   transition: all 0.2s ease-in;
 }
 
+.fy-container {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .fy-button:hover {
   cursor: pointer;
 }
@@ -253,13 +259,12 @@ nav {
   z-index: 2;
   color: #ffffff;
   background: #0e0e0e;
-  padding: 2rem;
 
   .works {
     margin-top: 2rem;
     .work {
       margin: 1rem;
-      width: 20rem;
+      width: 15rem;
       .details {
         margin: 1rem;
         .title {
@@ -281,36 +286,27 @@ nav {
 }
 
 
-.services {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+#services {
   color: #ffffff;
 
-  p {
-    border-right: 2px solid #000;
-    font-weight: 600;
+  .services {
+    justify-content: center;
+    margin-top: 2rem;
 
-  }
-  .services-flex {
-    display: flex;
-    padding: 0 10%;
-    div {
-      padding: 30px;
+    .service {
+      width: 20rem;
+      padding: 1rem;
+
+      .image {
+        margin: 1rem 0;
+      }
+      .title, .description {
+        margin-top: .5rem;
+      }
+      .description {
+        color: #9c9c9c;
+      }
     }
-  }
-  img {
-    margin: 10px 0;
-    height: 50px;
-  }
-  p {
-    font-size: 18px;
-    padding: 20px 30px 0 0;
-    opacity: 0.8;
-  }
-  h2 {
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 2px;
   }
 }
 
@@ -318,10 +314,9 @@ nav {
 .contact {
   color: #ffffff;
   background: #0e0e0e!important;
-  padding: 5rem 0;
 
   .form-flex {
-    margin: 5% 10%;
+    margin: 4rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -377,7 +372,8 @@ nav {
   hr {
     width: 80vw;
     margin: 0 auto;
-    border-color: #ababab9e;
+    border: none;
+    border-top: 1px solid #9c9c9c;
   }
 }
 

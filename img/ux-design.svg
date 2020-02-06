@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="86.304" height="67.388" viewBox="0 0 86.304 67.388">
-  <g id="ux-design" transform="translate(0 -56)" opacity="0.58">
+  <style >
+    .dark-mode {
+      fill: #fff;
+    }
+    .light-mode {
+      fill: #000;
+    }
+  </style>
+  <g id="ux-design" class="dark-mode" transform="translate(0 -56)" opacity="0.58">
     <path id="Path_516" data-name="Path 516" d="M33.267,90.533a1.269,1.269,0,1,0-.9-.372A1.271,1.271,0,0,0,33.267,90.533Z" transform="translate(-26.595 -26.595)"/>
     <path id="Path_517" data-name="Path 517" d="M57.267,90.533a1.269,1.269,0,1,0-.9-.372A1.268,1.268,0,0,0,57.267,90.533Z" transform="translate(-46.542 -26.595)"/>
     <path id="Path_518" data-name="Path 518" d="M81.267,90.533a1.269,1.269,0,1,0-.9-.372A1.271,1.271,0,0,0,81.267,90.533Z" transform="translate(-66.489 -26.595)"/>
