@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/9cb593d0a8e978d8b8c3f07aba70d67e03c435f5/rwd.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/9cb593d0a8e978d8b8c3f07aba70d67e03c435f5/rwd.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/rwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rwd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/rwd.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rwd.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +99,7 @@
       <workItem from="1580892728042" duration="1620000" />
       <workItem from="1580894834490" duration="8172000" />
       <workItem from="1580904444144" duration="421000" />
-      <workItem from="1580912040523" duration="20004000" />
+      <workItem from="1580912040523" duration="21658000" />
     </task>
     <servers />
   </component>

@@ -61,3 +61,84 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 1000px){
+	.fy-container {
+		width: 95vw;
+	}
+}
+
+@media only screen and (max-width: 950px){
+	#intro {
+		.greeting {font-size: 1.75rem}
+		.title{font-size: 7rem}
+		.fy-flex-center {min-height: 65vh}
+
+		.career-txt {
+			font-size: 1.75rem;
+		}
+	}
+
+	#works {
+		.works {
+			.work {
+				width: 20rem;
+			}
+		}
+	}
+
+	#services {
+		.services {
+			.service {
+				width: 15rem;
+				padding: 0.5rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 825px){
+
+	#works {
+		.works {
+			.work {
+				width: 17.5rem;
+			}
+		}
+	}
+
+	#services {
+		.services {
+			.service {
+				width: 70vw;
+				text-align: center;
+			}
+		}
+	}
+
+	#contact {
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 725px){
+	#intro {
+		.greeting {font-size: 1.5rem}
+		.title{font-size: 5.5rem}
+		.fy-flex-center {min-height: 65vh}
+
+		.career-txt {
+			font-size: 1.2rem;
+		}
+	}
+
+	#works {
+		.works {
+			.work {
+				width: 15rem;
+			}
+		}
+	}
+}
