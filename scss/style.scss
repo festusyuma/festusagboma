@@ -19,16 +19,17 @@ body {
   background: #000000;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: .25rem;
+  height: .25rem;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   box-shadow: none;
   background: transparent;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #335cff;
   outline: none;
 }
@@ -83,11 +84,30 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 1px;
 }
 
-.fy-flex-center{
+.fy-flex, .fy-flex-center {
   display: flex;
+}
 
+.fy-flex-center{
   > * {
     margin: auto;
+  }
+}
+
+.fy-flex-inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.fy-horizontal-scroll {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+
+   > div {
+    display: inline-flex;
   }
 }
 
@@ -229,29 +249,33 @@ nav {
 }
 
 
-.works {
+#works {
   z-index: 2;
   color: #ffffff;
   background: #0e0e0e;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
 
-  .work-flex {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10%;
-    margin: 3% 0;
-  }
-
-  .work-flex {
-    div {
-      overflow: hidden;
-      height: 400px;
-      width: 380px;
-    }
-
-    img {
-      max-width: 100%;
+  .works {
+    margin-top: 2rem;
+    .work {
+      margin: 1rem;
+      width: 20rem;
+      .details {
+        margin: 1rem;
+        .title {
+          font-size: 1.4rem;
+        }
+        .summary, .title {
+          margin-top: 1rem;
+        }
+        .summary {
+          color: #9c9c9c;
+        }
+      }
+      .image {
+        width: 100%;
+        border-radius: 0.5rem;
+      }
     }
   }
 }
