@@ -186,12 +186,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 214, ../scss/rwd.scss */
+  /* line 220, ../scss/rwd.scss */
   #contact .fy-flex {
     display: block;
     text-align: center;
   }
-  /* line 218, ../scss/rwd.scss */
+  /* line 224, ../scss/rwd.scss */
   #contact .fy-flex h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
