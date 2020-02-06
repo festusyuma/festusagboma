@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1500px){
+	.fy-container {
+		width: 1200px;
+	}
+
+	#works {
+		.works {
+			.work {
+				width: 17.5rem;
+			}
+		}
+	}
+
+	#services {
+		.services {
+			.service {
+				width: 20rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.fy-container {
+		width: 1000px;
+	}
+}

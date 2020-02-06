@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1500px) {
+  /* line 2, ../scss/rwd.scss */
+  .fy-container {
+    width: 1200px;
+  }
+
+  /* line 8, ../scss/rwd.scss */
+  #works .works .work {
+    width: 17.5rem;
+  }
+
+  /* line 16, ../scss/rwd.scss */
+  #services .services .service {
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 24, ../scss/rwd.scss */
+  .fy-container {
+    width: 1000px;
+  }
+}
