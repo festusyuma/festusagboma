@@ -464,10 +464,3 @@ label {
   text-decoration: none;
   color: #335cff;
 }
-
-@media (min-width: 1200px) {
-  /* line 414, ../scss/style.scss */
-  .container {
-    max-width: 1140px;
-  }
-}
