@@ -19,4 +19,33 @@
   .fy-container {
     width: 1000px;
   }
+
+  /* line 28, ../scss/rwd.scss */
+  .fy-button {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  /* line 35, ../scss/rwd.scss */
+  #works .works .work {
+    width: 15rem;
+  }
+  /* line 39, ../scss/rwd.scss */
+  #works .works .work .details .title {
+    font-size: 1.25rem;
+  }
+
+  /* line 49, ../scss/rwd.scss */
+  #services .services .service {
+    width: 17.5rem;
+  }
+  /* line 51, ../scss/rwd.scss */
+  #services .services .service .title {
+    font-size: 1.25rem;
+  }
+
+  /* line 59, ../scss/rwd.scss */
+  #contact h1 {
+    font-size: 3rem;
+  }
 }
