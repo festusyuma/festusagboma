@@ -315,7 +315,7 @@ nav #nav-icon {
 /* line 265, ../scss/style.scss */
 #works .works .work {
   margin: 1rem;
-  width: 15rem;
+  width: 20rem;
 }
 /* line 268, ../scss/style.scss */
 #works .works .work .details {
@@ -350,7 +350,7 @@ nav #nav-icon {
 }
 /* line 296, ../scss/style.scss */
 #services .services .service {
-  width: 20rem;
+  width: 25rem;
   padding: 1rem;
 }
 /* line 300, ../scss/style.scss */
