@@ -413,17 +413,15 @@ label {
 
 /* line 357, ../scss/style.scss */
 .logo {
-  max-width: 300px;
-  float: left;
-  color: #335cff;
-  font-size: 45px;
-  text-align: left;
-  line-height: 100px;
+  min-height: 10vh;
+  font-size: 3rem;
   font-weight: 800;
   font-family: 'Nagitta', sans-serif;
+  display: flex;
 }
-/* line 367, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .logo a {
+  margin: auto;
   text-decoration: none;
   color: #335cff;
 }

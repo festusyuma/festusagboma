@@ -355,16 +355,13 @@ label {
 
 
 .logo {
-  max-width: 300px;
-  float: left;
-  //text-transform: uppercase;
-  color: #335cff;
-  font-size: 45px;
-  text-align: left;
-  line-height: 100px;
+  min-height: 10vh;
+  font-size: 3rem;
   font-weight: 800;
   font-family: 'Nagitta', sans-serif;
+  display: flex;
   a {
+    margin: auto;
     text-decoration: none;
     color: #335cff;
   }

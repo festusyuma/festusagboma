@@ -166,7 +166,8 @@
 
 @media only screen and (max-width: 570px) {
 	nav {
-		display: inline-flex;
+		display: block;
+		padding: 0;
 		.nav-items {
 			display: block;
 			width: 100%;
@@ -175,7 +176,8 @@
 	}
 
 	#top-nav-bar {
-
+		position: fixed;
+		top: 0;
 	}
 
 	.bottom-nav {

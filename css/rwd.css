@@ -144,66 +144,73 @@
 @media only screen and (max-width: 570px) {
   /* line 168, ../scss/rwd.scss */
   nav {
-    display: inline-flex;
+    display: block;
+    padding: 0;
   }
-  /* line 170, ../scss/rwd.scss */
+  /* line 171, ../scss/rwd.scss */
   nav .nav-items {
     display: block;
     width: 100%;
     background: #000000;
   }
+
+  /* line 178, ../scss/rwd.scss */
+  #top-nav-bar {
+    position: fixed;
+    top: 0;
+  }
 }
 @media only screen and (max-width: 555px) {
-  /* line 187, ../scss/rwd.scss */
+  /* line 189, ../scss/rwd.scss */
   .fy-button {
     padding: 0.75rem 1rem;
     font-size: 0.8rem;
   }
 
-  /* line 193, ../scss/rwd.scss */
+  /* line 195, ../scss/rwd.scss */
   #intro .greeting {
     font-size: 1rem;
   }
-  /* line 194, ../scss/rwd.scss */
+  /* line 196, ../scss/rwd.scss */
   #intro .title {
     font-size: 3.5rem;
   }
-  /* line 195, ../scss/rwd.scss */
+  /* line 197, ../scss/rwd.scss */
   #intro .fy-flex-center {
     min-height: 65vh;
   }
-  /* line 197, ../scss/rwd.scss */
+  /* line 199, ../scss/rwd.scss */
   #intro .career-txt {
     font-size: 1rem;
     display: block;
     margin-top: 1rem;
   }
-  /* line 202, ../scss/rwd.scss */
+  /* line 204, ../scss/rwd.scss */
   #intro .career-txt .flip-item {
     justify-content: center;
   }
 
-  /* line 210, ../scss/rwd.scss */
+  /* line 212, ../scss/rwd.scss */
   #works .works .work {
     width: 80vw;
   }
 
-  /* line 217, ../scss/rwd.scss */
+  /* line 219, ../scss/rwd.scss */
   #contact .fy-flex {
     margin: 2rem 0;
   }
-  /* line 220, ../scss/rwd.scss */
+  /* line 222, ../scss/rwd.scss */
   #contact .fy-flex h1 {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 229, ../scss/rwd.scss */
+  /* line 231, ../scss/rwd.scss */
   #contact .fy-flex {
     display: block;
     text-align: center;
   }
-  /* line 233, ../scss/rwd.scss */
+  /* line 235, ../scss/rwd.scss */
   #contact .fy-flex h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
