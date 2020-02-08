@@ -145,7 +145,7 @@ nav {
   width: 100%;
   padding: 0 50px;
   z-index: 1;
-  max-height: 10vh;
+  min-height: 10vh;
   background: #000000;
 
   .nav-right {
