@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b70d4c5-09a4-415a-adb6-304ba85d6335" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/rwd.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/rwd.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/71445482086188eab7009908a15444f83426a22d/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/rwd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rwd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/rwd.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/rwd.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freda-car" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -104,6 +99,10 @@
       <workItem from="1580912040523" duration="21658000" />
       <workItem from="1581026962639" duration="2617000" />
       <workItem from="1581155792076" duration="402000" />
+      <workItem from="1581329424988" duration="1320000" />
+      <workItem from="1581918857236" duration="595000" />
+      <workItem from="1582010110648" duration="630000" />
+      <workItem from="1582019903429" duration="596000" />
     </task>
     <servers />
   </component>
