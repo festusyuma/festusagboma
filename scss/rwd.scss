@@ -132,7 +132,6 @@
 	#intro {
 		.greeting {font-size: 1.5rem}
 		.title{font-size: 5.5rem}
-		.fy-flex-center {min-height: 65vh}
 
 		.career-txt {
 			font-size: 1.2rem;
@@ -167,11 +166,28 @@
 @media only screen and (max-width: 570px) {
 	nav {
 		display: block;
-		padding: 0;
+		padding: 0 2rem;
+
+
 		.nav-items {
 			display: block;
 			width: 100%;
 			background: #000000;
+		}
+		#top-nav-items.nav-collapse {
+			height: 0;
+			overflow: hidden;
+		}
+
+		#top-nav-items.show.nav-collapse {
+			height: auto;
+		}
+
+		.nav-title {
+			.nav-collapse-toggle {
+				display: block;
+				margin-left: auto;
+			}
 		}
 	}
 
@@ -192,15 +208,14 @@
 	}
 
 	#intro {
-		.greeting {font-size: 1rem}
 		.title{font-size: 3.5rem}
-		.fy-flex-center {min-height: 65vh}
+		.fy-flex-center {min-height: 75vh}
 
 		.career-txt {
-			font-size: 1rem;
 			display: block;
 			margin-top: 1rem;
 
+			#i-am {margin-right: 0}
 			.flip-item {
 				justify-content: center;
 			}

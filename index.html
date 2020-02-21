@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1627711be2.js" crossorigin="anonymous"></script>
     <title>Festus Agboma</title>
 </head>
 <body>
@@ -20,12 +21,14 @@
     <div id="stars3" ></div>
 </div>
 <nav id="top-nav-bar" >
-    <div class="logo"> <a href="#">FA</a> </div>
+    <div class="nav-title">
+        <a href="#" class="nav-logo" >FA</a>
+        <div class="nav-collapse-toggle" data-target="#top-nav-items" >
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
 
-    <label for="toggle"> &#9776;</label>
-    <input type="checkbox" name="" id="toggle">
-
-    <ul class="nav-items nav-right menu-area">
+    <ul class="nav-items nav-right menu-area nav-collapse" id="top-nav-items">
         <li><a class="nav-item" href="#intro">Home</a></li>
         <li><a class="nav-item" href="#">Resume</a></li>
         <li><a class="nav-item" href="#services">Services</a></li>
@@ -180,6 +183,23 @@
     <p style="font-size: 14px">Copyright &copy;2019 Kolabinary and Festusyuma All rights reserved</p>
 </footer>
 
+<script>
+    let toggle = document.querySelector('.nav-collapse-toggle');
+    toggle.addEventListener('click', function (e){
+        if (e.button === 0) {
+            let navItems = document.querySelector(this.getAttribute('data-target'));
+            navItems.classList.toggle('show');
+            //toggleHeight(navItems)
+        }
+    });
 
+    // let toggleHeight = (elem) => {
+    //     if (elem.classList.contains('show')) {
+    //         elem.style.height = 'auto';
+    //     }else {
+    //         elem.style.height = 0;
+    //     }
+    // };
+</script>
 </body>
 </html>

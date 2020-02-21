@@ -116,101 +116,110 @@
   #intro .title {
     font-size: 5.5rem;
   }
-  /* line 135, ../scss/rwd.scss */
-  #intro .fy-flex-center {
-    min-height: 65vh;
-  }
-  /* line 137, ../scss/rwd.scss */
+  /* line 136, ../scss/rwd.scss */
   #intro .career-txt {
     font-size: 1.2rem;
   }
 
-  /* line 144, ../scss/rwd.scss */
+  /* line 143, ../scss/rwd.scss */
   #works .works .work {
     width: 15rem;
   }
 
-  /* line 151, ../scss/rwd.scss */
+  /* line 150, ../scss/rwd.scss */
   #contact h1 {
     font-size: 2rem;
   }
 }
 @media only screen and (max-width: 630px) {
-  /* line 160, ../scss/rwd.scss */
+  /* line 159, ../scss/rwd.scss */
   #works .works .work {
     width: 12.5rem;
   }
 }
 @media only screen and (max-width: 570px) {
-  /* line 168, ../scss/rwd.scss */
+  /* line 167, ../scss/rwd.scss */
   nav {
     display: block;
-    padding: 0;
+    padding: 0 2rem;
   }
-  /* line 171, ../scss/rwd.scss */
+  /* line 172, ../scss/rwd.scss */
   nav .nav-items {
     display: block;
     width: 100%;
     background: #000000;
   }
+  /* line 177, ../scss/rwd.scss */
+  nav #top-nav-items.nav-collapse {
+    height: 0;
+    overflow: hidden;
+  }
+  /* line 182, ../scss/rwd.scss */
+  nav #top-nav-items.show.nav-collapse {
+    height: auto;
+  }
+  /* line 187, ../scss/rwd.scss */
+  nav .nav-title .nav-collapse-toggle {
+    display: block;
+    margin-left: auto;
+  }
 
-  /* line 178, ../scss/rwd.scss */
+  /* line 194, ../scss/rwd.scss */
   #top-nav-bar {
     position: fixed;
     top: 0;
   }
 }
 @media only screen and (max-width: 555px) {
-  /* line 189, ../scss/rwd.scss */
+  /* line 205, ../scss/rwd.scss */
   .fy-button {
     padding: 0.75rem 1rem;
     font-size: 0.8rem;
   }
 
-  /* line 195, ../scss/rwd.scss */
-  #intro .greeting {
-    font-size: 1rem;
-  }
-  /* line 196, ../scss/rwd.scss */
+  /* line 211, ../scss/rwd.scss */
   #intro .title {
     font-size: 3.5rem;
   }
-  /* line 197, ../scss/rwd.scss */
+  /* line 212, ../scss/rwd.scss */
   #intro .fy-flex-center {
-    min-height: 65vh;
+    min-height: 75vh;
   }
-  /* line 199, ../scss/rwd.scss */
+  /* line 214, ../scss/rwd.scss */
   #intro .career-txt {
-    font-size: 1rem;
     display: block;
     margin-top: 1rem;
   }
-  /* line 204, ../scss/rwd.scss */
+  /* line 218, ../scss/rwd.scss */
+  #intro .career-txt #i-am {
+    margin-right: 0;
+  }
+  /* line 219, ../scss/rwd.scss */
   #intro .career-txt .flip-item {
     justify-content: center;
   }
 
-  /* line 212, ../scss/rwd.scss */
+  /* line 227, ../scss/rwd.scss */
   #works .works .work {
     width: 80vw;
   }
 
-  /* line 219, ../scss/rwd.scss */
+  /* line 234, ../scss/rwd.scss */
   #contact .fy-flex {
     margin: 2rem 0;
   }
-  /* line 222, ../scss/rwd.scss */
+  /* line 237, ../scss/rwd.scss */
   #contact .fy-flex h1 {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 231, ../scss/rwd.scss */
+  /* line 246, ../scss/rwd.scss */
   #contact .fy-flex {
     display: block;
     text-align: center;
   }
-  /* line 235, ../scss/rwd.scss */
+  /* line 250, ../scss/rwd.scss */
   #contact .fy-flex h1 {
     font-size: 2rem;
     margin-bottom: 2rem;

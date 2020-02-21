@@ -412,16 +412,21 @@ label {
 }
 
 /* line 357, ../scss/style.scss */
-.logo {
+.nav-title {
+  display: flex;
+  align-items: center;
   min-height: 10vh;
+}
+/* line 362, ../scss/style.scss */
+.nav-title .nav-logo {
   font-size: 3rem;
   font-weight: 800;
-  font-family: 'Nagitta', sans-serif;
-  display: flex;
-}
-/* line 363, ../scss/style.scss */
-.logo a {
-  margin: auto;
   text-decoration: none;
   color: #335cff;
+}
+/* line 368, ../scss/style.scss */
+.nav-title .nav-collapse-toggle {
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: none;
 }
